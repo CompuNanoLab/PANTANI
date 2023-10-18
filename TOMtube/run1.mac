@@ -1,0 +1,28 @@
+# Macro file for TOM
+# 
+# Can be run in batch, without graphic
+# or interactively: Idle> /control/execute run1.mac
+#
+# Change the default number of workers (in multi-threading mode) 
+#/run/numberOfThreads 4
+#
+# Set some default verbose
+/control/verbose 0
+/run/verbose 0
+/event/verbose 0
+/tracking/verbose 0
+/process/em/verbose 0
+# Biasing
+/process/em/setSecBiasing eBrem World 5000 1000 MeV # region, splitting factor, max energy
+/process/em/setSecBiasing Rayl World 5000 1000 MeV
+/process/em/setSecBiasing phot World 5000 1000 MeV
+/process/em/setSecBiasing compt World 5000 1000 MeV
+/process/em/setSecBiasing annihil World 5000 1000 MeV
+/process/em/fluoBearden true
+
+# Initialize kernel
+/run/initialize
+/run/printProgress 10000
+
+# Run
+/run/beamOn 100000 #0
