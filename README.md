@@ -10,7 +10,7 @@ The main goal of the PANTANI project is to complete the design of an innovative 
 
 ## Data Organization
 
-This GitHub space contains all the links to the repositories with codes produced during the PANTANI project or related to it. All the material is available under academic license.
+This GitHub space contains all codes produced during the PANTANI project or related to it. All the material is available under academic license. Some of these codes are under development in their corresponding repositories. We provide below the links to these repositories to get the most updated versions of these codes.
 
 List of the repositories related to the PANTANI project:
 
@@ -20,4 +20,4 @@ List of the repositories related to the PANTANI project:
 
 ## Acknowledgments
 
-This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2022 research and innovation programme (PoC-PANTANI grant agreement No 101069171).
+This project has received funding from the European Research Council (ERC) under the European Union’s Horizon 2022 research and innovation program (PoC-PANTANI grant agreement No 101069171).
